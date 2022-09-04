@@ -8,4 +8,4 @@
 * 게임 진행중에, session storage에 현재 점수와 남은 시간을 저장하여, 탭을 종료하지 않는 한, 게임 도중 새로고침한 경우, 진행 중이었던 플레이가 자동으로 이어서 진행됨.
 
 ## Timer hook
-* setInterval, setTimeout등을 저장하기 위해, useRef()를 사용해야하는 데, 이는 가독성을 떨어뜨릴 수 있으므로, custom hook으로, useIntervalRef(), useTimeoutRef()를 만들어 사용함
+* custom hook으로, useIntervalRef(), useTimeoutRef()를 만들어 사용함
